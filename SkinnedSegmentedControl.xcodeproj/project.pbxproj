@@ -15,12 +15,15 @@
 		D456DACC1878B044003921A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D456DACB1878B044003921A8 /* AppDelegate.m */; };
 		D456DACF1878B044003921A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D456DACD1878B044003921A8 /* Main.storyboard */; };
 		D456DAD21878B044003921A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D456DAD11878B044003921A8 /* ViewController.m */; };
-		D456DAD41878B044003921A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D456DAD31878B044003921A8 /* Images.xcassets */; };
 		D456DADB1878B044003921A8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D456DADA1878B044003921A8 /* XCTest.framework */; };
 		D456DADC1878B044003921A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D456DABB1878B044003921A8 /* Foundation.framework */; };
 		D456DADD1878B044003921A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D456DABF1878B044003921A8 /* UIKit.framework */; };
 		D456DAE51878B044003921A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D456DAE31878B044003921A8 /* InfoPlist.strings */; };
 		D456DAE71878B044003921A8 /* SkinnedSegmentedControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D456DAE61878B044003921A8 /* SkinnedSegmentedControlTests.m */; };
+		D456DAF21878B0BE003921A8 /* MBSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D456DAF11878B0BE003921A8 /* MBSegmentedControl.m */; };
+		D456DAF418798419003921A8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D456DAF318798419003921A8 /* QuartzCore.framework */; };
+		D456DAF71879ECFF003921A8 /* MBVerticalSegmentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D456DAF61879ECFF003921A8 /* MBVerticalSegmentedViewController.m */; };
+		D456DAF9187A179B003921A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D456DAF8187A179B003921A8 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,12 +50,17 @@
 		D456DACE1878B044003921A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D456DAD01878B044003921A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D456DAD11878B044003921A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D456DAD31878B044003921A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D456DAD91878B044003921A8 /* SkinnedSegmentedControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkinnedSegmentedControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D456DADA1878B044003921A8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D456DAE21878B044003921A8 /* SkinnedSegmentedControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkinnedSegmentedControlTests-Info.plist"; sourceTree = "<group>"; };
 		D456DAE41878B044003921A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D456DAE61878B044003921A8 /* SkinnedSegmentedControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkinnedSegmentedControlTests.m; sourceTree = "<group>"; };
+		D456DAF01878B0BE003921A8 /* MBSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBSegmentedControl.h; sourceTree = "<group>"; };
+		D456DAF11878B0BE003921A8 /* MBSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSegmentedControl.m; sourceTree = "<group>"; };
+		D456DAF318798419003921A8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D456DAF51879ECFF003921A8 /* MBVerticalSegmentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBVerticalSegmentedViewController.h; sourceTree = "<group>"; };
+		D456DAF61879ECFF003921A8 /* MBVerticalSegmentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBVerticalSegmentedViewController.m; sourceTree = "<group>"; };
+		D456DAF8187A179B003921A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +69,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D456DABE1878B044003921A8 /* CoreGraphics.framework in Frameworks */,
-				D456DAC01878B044003921A8 /* UIKit.framework in Frameworks */,
 				D456DABC1878B044003921A8 /* Foundation.framework in Frameworks */,
+				D456DAF418798419003921A8 /* QuartzCore.framework in Frameworks */,
+				D456DAC01878B044003921A8 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +110,7 @@
 		D456DABA1878B044003921A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D456DAF318798419003921A8 /* QuartzCore.framework */,
 				D456DABB1878B044003921A8 /* Foundation.framework */,
 				D456DABD1878B044003921A8 /* CoreGraphics.framework */,
 				D456DABF1878B044003921A8 /* UIKit.framework */,
@@ -117,8 +127,12 @@
 				D456DACD1878B044003921A8 /* Main.storyboard */,
 				D456DAD01878B044003921A8 /* ViewController.h */,
 				D456DAD11878B044003921A8 /* ViewController.m */,
-				D456DAD31878B044003921A8 /* Images.xcassets */,
+				D456DAF8187A179B003921A8 /* Images.xcassets */,
 				D456DAC21878B044003921A8 /* Supporting Files */,
+				D456DAF01878B0BE003921A8 /* MBSegmentedControl.h */,
+				D456DAF11878B0BE003921A8 /* MBSegmentedControl.m */,
+				D456DAF51879ECFF003921A8 /* MBVerticalSegmentedViewController.h */,
+				D456DAF61879ECFF003921A8 /* MBVerticalSegmentedViewController.m */,
 			);
 			path = SkinnedSegmentedControl;
 			sourceTree = "<group>";
@@ -228,7 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D456DAD41878B044003921A8 /* Images.xcassets in Resources */,
+				D456DAF9187A179B003921A8 /* Images.xcassets in Resources */,
 				D456DAC61878B044003921A8 /* InfoPlist.strings in Resources */,
 				D456DACF1878B044003921A8 /* Main.storyboard in Resources */,
 			);
@@ -249,9 +263,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D456DAF71879ECFF003921A8 /* MBVerticalSegmentedViewController.m in Sources */,
 				D456DAD21878B044003921A8 /* ViewController.m in Sources */,
 				D456DACC1878B044003921A8 /* AppDelegate.m in Sources */,
 				D456DAC81878B044003921A8 /* main.m in Sources */,
+				D456DAF21878B0BE003921A8 /* MBSegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +350,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -367,7 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
